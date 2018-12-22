@@ -1,0 +1,167 @@
+body{
+	padding: 0;
+	border: 0;
+	margin: 0;
+	background-color: #f3f3f3;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	background-color: #0084f6;
+}
+.logo{
+	position: absolute;
+	left: 30%;
+	top: 20px;
+}
+input[type="search"]{
+	width: 29%;
+	height: 30px;
+	padding-left: 3%;
+	border-radius: 10px;
+	border: 1px solid white;
+	position: absolute;
+	top: 2.5%;
+	left: 60%;
+}
+input[type="search"]:hover{
+	border: 1px solid black;
+}
+input[type="email"]{
+	width: 30%;
+	height: 40px;
+	padding-left: 3%;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 25%;
+	left: 57%;
+}
+input[type="password"]{
+	width: 30%;
+	height: 40px;
+	padding-left: 3%;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 35%;
+	left: 57%;
+}
+input[type="d-o-b"]{
+	width: 30%;
+	height: 40px;
+	padding-left: 3%;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 45%;
+	left: 57%;
+}
+input[type="gender"]{
+	width: 30%;
+	height: 40px;
+	padding-left: 3%;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 55%;
+	left: 57%;
+}
+input[type="submit"]{
+	width: 13%;
+	height: 50px;
+	padding-left: 3%;
+	border-radius: 10px;
+	border: 1px solid grey;
+	position: absolute;
+	top: 72%;
+	left: 65%;
+	color: #f3f3f3;
+	background-color: grey;
+	padding-right: 13%;
+	font-size: 15px;
+	cursor: pointer;
+}
+#login-header{
+	color: #0084f6;
+	font-size: 32px;
+	font-family: 'Righteous',sans-serif;
+	position: absolute;
+	left: 67%;
+	top: 15%;
+}
+.about-container{
+	position: absolute;
+	background-color: #f3f3f3;
+	left: 5%;
+	height: 300px;
+	width: 35%;
+	top: 25%;
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 5%;
+}
+#about-content{
+	font-size: 22px;
+	font-family: 'Muli', sans-serif;
+}
+#terms-con{
+	border: 1px solid #0084f6;
+	border-top: 10px solid #0084f6;
+	height: 500px;
+	width: 40%;
+	background: white;
+	position: absolute;
+	top: 15%;
+	left: 25%;
+	display: none;
+}
+#terms{
+	font-size: 20px;
+	color: black;
+}
+#accept{
+	background: #0084f6;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 15px;
+	position: absolute;
+	bottom: 5px;
+	right: 8%;
+	border: 1px solid #0084f6;
+	cursor: pointer;
+}
+#acception{
+	font-size: 20px;
+	color: blue;
+	position: absolute;
+	bottom: 15px;
+	left: 15%;
+}
+#checkaccept{
+	position: absolute;
+	bottom: 3%;
+	left: 8%;
+}
+#termsandcon{
+	 font-family: monospace;
+	 position: absolute;
+	 left: 20%;
+}
+#terms{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+#acc-term-con{
+	font-size: 18px;
+	position: absolute;
+	top: 65%;
+	left: 62%;
+	cursor: pointer;
+	color: blue;
+	font-family: "Lucida Grande",Helvetica,Arial,"Arial Unicode",sans-serif;
+}
