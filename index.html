@@ -8,11 +8,12 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Righteous" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/Smile-logo.png">
 <script src="main.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 <body>
 <div class="header">
-	<img src="" alt="Logo By Shadow Teck" class="logo">
+	<img src="img/Smile-logo.png" alt="Smile" height="80" width="80" class="logo">
 	<input type="search" name="search" name="search" placeholder="Search....">
 </div>
 <div class="sign-in">
@@ -20,8 +21,14 @@
 	<span id="login-header">Sign In!</span>
 <input type="email" name="" placeholder="E-Mail" required>
 <input type="password" name="" placeholder="Password" required>
-<input type="date" name="" placeholder="Date-Of-Birth" required>
-<input type="gender" name="gender" placeholder="Gender" required>
+<input type="date" name="d-o-b" placeholder="mm/dd/yyyy" required>
+<input type="gender" name="gender" placeholder="Gender" required list="genders">
+<datalist id="genders">
+    <option value="Female">
+    <option value="Male">
+    <option value="Rather not to say">
+    <option value="None of the Above">
+  </datalist>
 <span onclick="termsCon();" id="acc-term-con">Accept the Terms and Conditions.</span>
 <input type="submit" name="submit" value="Create an Account!" id="submit">
 </form>
